@@ -91,3 +91,16 @@ header .container {
   padding: 1.5rem 3rem;
 }
 
+.login {
+  border-radius: 5rem;
+  margin-left: 1rem;
+  border-color: transparent;
+  font : bold;
+}
+
+.register {
+  border-radius: 5rem;
+  margin-left: 1rem;
+  border-color: transparent;
+  font : bold;
+}
