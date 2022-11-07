@@ -73,20 +73,15 @@ header .container {
   text-decoration: none;
   outline: none;
 }
+
 .btn:hover {
   box-shadow: none;
 }
 
 .wallet-btn {
-  border-radius: 5rem;
+  border-radius: 1rem;
   margin-left: 2rem;
   border-color: transparent;
-}
-
-.hero-btn {
-  border-radius: 4px;
-  font-size: 1.2rem;
-  padding: 1.5rem 3rem;
 }
 
 /* OWNER STYLES */
