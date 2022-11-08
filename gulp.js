@@ -1,7 +1,7 @@
-var fileinclude = require('gulp-file-include'),
+var fileinclude = require('index.html'),
   gulp = require('gulp');
  
-gulp.task('fileinclude', function() {
+gulp.task('index.html', function() {
   gulp.src(['index.html'])
     .pipe(fileinclude({
       prefix: '@@',
