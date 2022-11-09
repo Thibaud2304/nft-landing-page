@@ -95,6 +95,22 @@ header .container {
   margin-left: 1rem;
   border-color: transparent;
   font : bold;
+  display: inline-block;
+  padding: 1rem 2rem;
+  background: var(--btn-bg-color);
+  color: var(--accent-color);
+  font-family: var(--font-secondary);
+  font-style: italic;
+  font-weight: bold;
+  font-size: 1rem;
+  text-transform: capitalize;
+  transition: all 0.3s ease;
+  box-shadow: 4px 4px 0 0 var(--accent-color);
+  cursor: pointer;
+  position: relative;
+  text-decoration: none;
+  outline: none;
 }
+
 
 
