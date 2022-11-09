@@ -112,5 +112,7 @@ header .container {
   outline: none;
 }
 
-
+.login:hover {
+  box-shadow: none;
+}
 
