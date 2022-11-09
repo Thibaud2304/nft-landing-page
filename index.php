@@ -1,3 +1,6 @@
-<?php
-echo "hallo"
-?>
+<!DOCTYPE html>
+<html>
+    <?php
+    echo "hallo"
+    ?>
+</html>
