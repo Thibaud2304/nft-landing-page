@@ -1,5 +1,5 @@
-const nav = document.querySelector('.index')
-fetch('/index.html')
+const nav = document.querySelector('.index2')
+fetch('index2.html')
 .then(res=>res.text())
 .then(data=>{
     nav.innerHTML=data
