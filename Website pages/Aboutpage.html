@@ -1,7 +1,12 @@
 <!DOCTYPE html>
 <html>
     <body>
-        <iframe src="index.html" name="targetframe" allowTransparency="true" scrolling="no" frameborder="0" >
-        </iframe>
+        <head> 
+            <script src="jquery.js"></script> 
+            <script> $(function(){ $("#divId").load("b.html"); }); </script> 
+        </head> 
+        <body> 
+            <div id="divId" style="display:none;"></div> 
+        </body> 
     </body>
 </html>
